@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar ,.icons{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+   
+    
+   
+    
+  
+    
+  }
+  .menu-bar ul,.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+   
+  }
+
+ 
+  .menu-bar li{
+    padding: 13px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  select {
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+  }
+  
+  button{
+    padding: 6px;
+    width: 100px;
+    
+  }
+  .icon{
+    padding: 5px;
+  }
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-content{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.3;
+   
+   
+  }
+  .word {
+    position: relative;
+    letter-spacing: 2px;
+  }
+  
+  .word::before,
+  .word::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background-color:white;
+    width: 35px;
+  }
+  
+  .word::before {
+    left: 700px;
+  }
+  
+  .word::after {
+    right: 700px;
+  }
+  .h1{
+    font-size: 60px;
+  }
+  .content-para{
+    
+   
+    margin-left: auto;
+    margin-right:auto;
+    width:60%;
+    padding: 10px;
+  
+    }
+    .header{
+      background-image: url(./miss-zhang-jz0xIgcwyL0-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: white;
+      height: 700px;
+    }
+    div.center{
+      display:flex;
+      text-align: center;
+      margin-bottom: 80px;
+ 
+    }
+    .c1,.c2,.c3{
+      padding: 20px;
+      text-align: center;
+      width: 400px;
+      margin-left: 100px;
+     
+    }
+    .c3{
+      margin-right: 45px;
+    }
+    .cp{
+      color: grey;
+      font-weight: 200;
+      font-style:normal;
+      line-height: 20px;
+    }
+    .Rm{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      letter-spacing:2px;
+      text-decoration: underline;
+      
+     
+    }
+    div.story{
+      display: flex;
+    }
+ 
+    div.pic img{
+    width: 650px;
+    }
+    div.story-content{
+      padding-left: 35px;
+      background-color: rgb(248, 246, 246);
+      
+    }
+    .display-2 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.9rem;
+      line-height: 1.3;
+      font-weight: 300;
+  }
+  
+.display-5 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.display-7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: 1.7;
+    font-weight: 200;
+}
+div.portfolio{
+  text-align: center;
+}
+ .word1 {
+    position: relative;
+    letter-spacing: 2px;
+  }
+  
+  .word1::before,
+  .word1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background-color:black;
+    width: 35px;
+  }
+  
+  .word1::before {
+    left: 700px;
+  }
+  
+  .word1::after {
+    right: 700px;
+  }
+  .display-8{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.1rem;
+    line-height: 1.4;
+  }
+  div.img-cat{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .img-cat ul{
+    display: flex;
+    list-style-type: none;
+    color:  rgb(94, 92, 92);;
+   
+  }
+  .img-cat li,p{
+    padding: 15px 
+  }
+div.images-1{
+  padding: 5px;
+}
+.images-1 img,.images-2 img{
+margin-left: 7px;
+}
+div.posters{
+  display: flex;
+  margin-top: 40px;
+}
+.p1,.p2,.p3,.p4{
+  text-align: center;
+  background-image: url(./sid-balachandran-cUpp1gAEtiU-unsplash.jpg);
+  height: 100%;
+  padding: 18rem 2rem 5rem 2rem;
+  background-size: cover;
+  width: 252.5px;
+  color: white;
+}
+#p1{
+ 
+  background-image: url(./sid-balachandran-cUpp1gAEtiU-unsplash.jpg); }
+#p2{
+ 
+  background-image: url(./p2_2.jpg);
+ }
+
+ #p3{
+ 
+  background-image: url(./kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg);
+ }
+ #p4{
+ 
+  background-image: url(./neom-0rvKw0fDiHk-unsplash.jpg);
+ }
+
+
+
+div.container1{
+  display:flex;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 50px;
+
+}
+
+.image8{
+justify-content: space-between;
+  width: 400px;
+
+  
+  
+}
+.h_big{
+  font-weight: 500px;
+  font-size: 50px;
+  margin-bottom: 1px;
+}
+.userimage{
+  
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 0.5rem auto;
+    border: 1px solid lightgray;
+    position: relative;
+}
+div.profile{
+  text-align: center;
+}
+div.person{
+margin-left: auto;
+margin-right: auto;
+margin-top:70px;
+width: 500px;
+}
+.cp_2{
+  color: grey;
+  font-weight: 300;
+  font-style:normal;
+  line-height: 1px;
+}
+.insta{
+  display: flex;
+  margin-left: 70px;
+  
+}
+.footer{
+  text-align: center;
+  background-color: 
+  rgb(66, 63, 63);
+  color: white;
+  margin-top: 50px;
+  height: 50px;
+  padding: 20px;
+}
+.basic,.premium,.standard{
+  width: 300px;
+  
+  border: 2px solid transparent;
+  border-radius: 15px;
+  margin-left: 10px;}
+  #basic{
+    background-color: #cc2952;
+    height:480px;
+    
+  }
+  #standard{
+    background-color: #29a7c6;
+    height:480px;
+  }
+  #premium{
+    background-color: #ed6031;
+    height:510px;
+  }
+
+.price1{
+  
+  padding: 20px;
+  text-align: center;
+}
+.white{
+  color: #ffff;
+}
+.details1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.packages{
+  display: flex;
+  justify-content: center;
+  background-image: url(./background57.jpg);
+  background-size:cover;
+  padding-top: 45px;
+  padding-bottom: 150px;
+  
+  
+}
+.details1{
+  background-color: #fff;
+  margin-top: -18px;
+}
+.purchase-btn{
+padding-left: 15px;
+padding-right: 15px;
+  border: 2px solid rgb(58, 57, 57);
+  border-radius: 3px;
+  background-color: transparent;
+  font-weight: 600;
+
+}
+.purchase-btn:hover{
+  background-color: rgb(29, 26, 26);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Adjust label position as needed */
+
+
+/* Add more percentage lines as needed */
+
+
+
+    
+  
+   
+  
+  
+ 
