@@ -103,4 +103,5 @@ Route::view('/add','adduser')->name('add');
 Route::get('/users/{id?}',[Usercontroller::class,'singleuser'])->name('view');
 Route::get('/deleteusers/{id}',[Usercontroller::class,'deleteuser'])->name('delete');
 Route::get('/updatepage/{id}',[Usercontroller::class,'updatepage'])->name('update.page');
+Route::get('/testupdate',[Usercontroller::class,'testupdate']);
 

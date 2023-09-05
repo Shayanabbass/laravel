@@ -18,8 +18,8 @@ return new class extends Migration
             // ->onUpdate('cascade')
             // ->onDelete('cascade')
             // ->onDelete('setnull');
-            // $table->foreignId('stu_id')->constrained('students')->cascadeOnDelete()->cascadeOnUpdate();
-            $table->string('stu_id',30);
+            $table->foreignId('stu_id')->constrained('students')->cascadeOnDelete()->cascadeOnUpdate();
+            // $table->string('stu_id',30);
             $table->string('book',30)->unique();
 
             $table->date('date_issue')->nullable();

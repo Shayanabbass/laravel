@@ -17,7 +17,7 @@ class Usercontroller extends Controller
     }
     public function showusers(){
     //  $users=DB::table('students')->select('name','age')->where('age','>','17')->get();
-    $users=DB::table('libraries')->get();
+    $users=DB::table('libraries')->orderBy('id')->paginate(4,['*'],'search')->appends(['course'=>'web']);
         return view('allusers',['data'=>$users]);
         
     }
@@ -81,6 +81,10 @@ class Usercontroller extends Controller
         if($sql){
            return redirect()->route('show.users');
         }
+    }
+    public function testupdate(){
+        $sql=DB::table('libraries')->where('id',5)->orWhere('book','Moss')->get();
+        return $sql;
     }
 
 }

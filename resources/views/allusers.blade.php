@@ -7,8 +7,14 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+<style>
+    nav .w-5{
+        display: none;
+    }
+</style>
 <body>
     <div class="container">
+        <h1>USERS</h1>
     <div class="row">
 
         <div class="col-6">
@@ -54,5 +60,14 @@
 </div>
 </div>
 </table>
+<div class="mt-5">
+    {{$data->links()}}
+    {{$data->total()}}<br>
+    {{$data->currentPage()}}<br>
+
+    
+
+
+</div>
 </body>
 </html>
